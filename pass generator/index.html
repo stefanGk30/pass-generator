@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p style="margin-bottom: 20px">password must be 3-12 characters long</p>
+    <form action="">
+      <label for="letters">letters</label>
+      <input type="checkbox" name="letters" id="letters" />
+      <br />
+      <label for="numbers">numbers</label>
+      <input type="checkbox" name="numbers" id="numbers" />
+      <br />
+      <label for="symbols">symbols</label>
+      <input type="checkbox" name="symbols" id="symbols" />
+      <br />
+      <label for="length">length</label>
+      <input type="number" name="length" id="length" min="3" max="12" />
+      <br />
+      <input
+        type="submit"
+        value="submit"
+        style="display: block; margin: 10px 0"
+      />
+    </form>
+    <p>your password is:</p>
+    <h1></h1>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
